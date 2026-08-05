@@ -1,4 +1,4 @@
-# ABDUCTION-BENCH
+# ABDUCTION-BENCHMARK
 
 **Does choosing an experiment contribute anything beyond the evidence that experiment produces?**
 

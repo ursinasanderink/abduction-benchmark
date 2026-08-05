@@ -1,0 +1,1111 @@
+{
+ "seed": 20260804,
+ "n_sims": 500,
+ "mme": 0.15,
+ "analysis": "paired world-level t-test, two-sided alpha=0.05",
+ "grid_results": [
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.147
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.974,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.131
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.984,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.14
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.984,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.996,
+   "realized_diff": 0.145
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.145
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.992,
+   "realized_diff": 0.13
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.996,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.994,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.984,
+   "realized_diff": 0.125
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.996,
+   "realized_diff": 0.125
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.2,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.982,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.964,
+   "realized_diff": 0.13
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.994,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.978,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.996,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.966,
+   "realized_diff": 0.13
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.994,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.984,
+   "realized_diff": 0.14
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.954,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.988,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.954,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.996,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.99,
+   "realized_diff": 0.145
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.145
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.954,
+   "realized_diff": 0.124
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.994,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.984,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.35,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.978,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.996,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.922,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.992,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.982,
+   "realized_diff": 0.139
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.932,
+   "realized_diff": 0.13
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.99,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 0.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.992,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.946,
+   "realized_diff": 0.125
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.988,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.986,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.141
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.938,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.986,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.0,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.994,
+   "realized_diff": 0.144
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.96,
+   "realized_diff": 0.129
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.126
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.25,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.143
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.998,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.05,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.142
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 40,
+   "k_repeats": 3,
+   "power": 0.978,
+   "realized_diff": 0.128
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 60,
+   "k_repeats": 3,
+   "power": 0.996,
+   "realized_diff": 0.127
+  },
+  {
+   "base_rate": 0.5,
+   "sigma_w": 1.5,
+   "sigma_wm": 0.5,
+   "f_malformed": 0.15,
+   "n_worlds": 80,
+   "k_repeats": 3,
+   "power": 1.0,
+   "realized_diff": 0.127
+  }
+ ],
+ "budget": {
+  "worlds=40": {
+   "runs_per_condition": 360,
+   "total_runs": 2160,
+   "est_tokens_M": 70.2,
+   "est_usd": 562,
+   "est_usd_with_pilot_15pct": 646
+  },
+  "worlds=60": {
+   "runs_per_condition": 540,
+   "total_runs": 3240,
+   "est_tokens_M": 105.3,
+   "est_usd": 842,
+   "est_usd_with_pilot_15pct": 969
+  },
+  "worlds=80": {
+   "runs_per_condition": 720,
+   "total_runs": 4320,
+   "est_tokens_M": 140.4,
+   "est_usd": 1123,
+   "est_usd_with_pilot_15pct": 1292
+  }
+ }
+}

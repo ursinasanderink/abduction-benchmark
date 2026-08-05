@@ -1,21 +1,27 @@
-# Pre-Registration: ABDUCT-BENCH — Factorial Simulator Experiment
+# Pre-Registration: ABDUCT-BENCH — Active vs Online-Yoked Mechanism Discovery
 
-> ## ⚠️ STATUS: DRAFT v0.5.1 — NOT YET SIGNED. NO DATA COLLECTED.
+> ## STATUS: v0.6 — awaiting signature and external timestamp. NO DATA COLLECTED.
 >
-> This document is **not yet a binding registration.** It is published in draft
-> specifically so that it can be attacked before it becomes binding. See
-> [README](README.md) for what is still outstanding and how to file criticism.
+> **Design is complete and frozen pending signature.** This document is published in draft so
+> that it can be attacked before it becomes binding. See [README](README.md) for how to file
+> criticism.
 >
-> It becomes binding only when: the §9 checklist is complete, the author signs, and the
-> document is committed with a signed git commit **plus an external immutable timestamp**
-> (Zenodo/OSF deposit of hashes). The signed version will be tagged `prereg-v1.0-signed`
-> and that tag — not this file's current state — is the citable registration.
+> It becomes binding when the author signs §9 and the document is committed with a signed git
+> commit **plus an external immutable timestamp**. The signed version is tagged
+> `prereg-v1.0-signed`; that tag — not this file's moving state — is the citable registration.
+>
+> **v0.6 changes (2026-08-05):** the sealed private-archive tier was **split into its own future
+> registration** (it is a different study on a different timetable and is not required for this
+> experiment); concealed decoy worlds and balanced representation-shift scoring were **integrated
+> into §4b** rather than left pending; the open-materials release lists were added (§5b); the
+> sample-size rule was restated as *calibration-pilot-determines-final-N*; the applied-domain
+> naming rule was relaxed to field level (§8).
 
-**Positioning (binding for all public materials):** this study is *a preregistered replication
-and extension of active-versus-yoked hidden-mechanism discovery* (Geng, Chen, Arumugam &
-Griffiths, arXiv 2505.17968; paradigm lineage Markant & Gureckis 2014; cf. Samiei et al.
-arXiv 2606.06464, CausaLab arXiv 2605.26029, Lampinen et al. arXiv 2305.16183), testing whether
-**intervention choice contributes beyond an identical externally generated evidence stream**.
+**Positioning (binding for all public materials):** this study is *a preregistered replication and
+extension of active-versus-yoked hidden-mechanism discovery* (Geng, Chen, Arumugam & Griffiths,
+arXiv 2505.17968; paradigm lineage Markant & Gureckis 2014; cf. Samiei et al. arXiv 2606.06464,
+CausaLab arXiv 2605.26029, Lampinen et al. arXiv 2305.16183), testing whether **intervention
+choice contributes beyond an identical externally generated evidence stream**.
 
 Three contribution claims, each stated at the strength an adversarial prior-art sweep left
 standing:
@@ -24,23 +30,24 @@ standing:
    observations "without the verbalization and analysis that are used to construct such data"
    (their §4.3); their yoked condition underperformed active "across all three black-box types."
    Our yoke receives the same evidence *online, one step at a time, with matched update turns and
-   token budgets.* No other LLM yoke of this form was found by our sweep.
+   token budgets.* No other LLM yoke of this form was found under our documented queries.
 2. **The passive-proposer arm, ported to LLMs.** Samiei et al.'s Passive Proposer condition ran
    with **humans only** (their LLMs ran active-only). Design credit is theirs; the LLM
    instantiation is ours.
-3. **The Vulcan-trap representation-shift module** (§4b), differentiated from the transition-card
-   benchmark (arXiv 2605.14033: incumbent/replacement/distractor structure, but no LLM, no
-   interventions, and selection-from-a-menu rather than formulation — **all three differentiators
-   must hold in our implementation, especially formulation, never selection**).
+3. **The Vulcan-trap representation-shift module with decoys** (§4b), differentiated from the
+   transition-card benchmark (arXiv 2605.14033: incumbent/replacement/distractor structure, but
+   no LLM, no interventions, and selection-from-a-menu rather than formulation — **all three
+   differentiators must hold in our implementation, especially formulation, never selection**).
 
 It is **not** framed as the first active-versus-yoked test, and **not**, by itself, a decisive
 test of whether LLMs can invent new scientific axioms.
 
-**Scope (staged registrations):** this document registers (a) the operational definition, (b) the
-factorial simulator experiment, and (c) a private-archive freeze governing a separate sealed
-evaluation tier (§7). A historical-coding study and a protocol-ablation study receive **separate
-registrations** before their own data collection, because findings from the first legitimately
-inform the final task design of the second.
+**Scope (staged registrations).** This document registers the operational definition and the
+factorial simulator experiment, and nothing else. Three companion studies receive **their own
+registrations before their own data collection**: a historical-coding study; a protocol-ablation
+study; and a **sealed private-archive evaluation tier** drawing on a process-trace archive from a
+proprietary applied domain (split out of this document in v0.6 — it is a separate study with a
+separate timetable, and this experiment does not depend on it).
 
 ## 1. Operational definition of abduction
 
@@ -245,16 +252,48 @@ labeled as such; only the Vulcan-trap module speaks to representation change.
 
 Generator-grammar details freeze with the Phase-2 task-materials registration.
 
-> **Pending amendment (v0.6, required before signing):** the scored representation-shift family
-> must include **concealed decoys** — worlds in which the cheap patch is correct (the "Neptune"
-> case), worlds in which the incumbent theory is correct and the anomaly is sampling variation,
-> and worlds in which the discrepancy is measurement failure. Without decoys, a model can score
-> well through the degenerate policy "whenever the incumbent misses, propose a deeper ontology,"
-> which is performative contrarianism rather than abduction. The endpoint therefore becomes
-> **balanced representation-shift accuracy**: *replacement sensitivity* (changing representation
-> when required) against *false-replacement rate* (staging a revolution when a patch, measurement
-> account, or unchanged incumbent is correct). This gap was identified in external review and is
-> published here before it was fixed, rather than quietly folded in.
+**Concealed decoys (integrated in v0.6 — required).** A benchmark containing only
+replacement-warranted worlds has a fatal shortcut: a model that learns "whenever the incumbent
+misses, propose a deeper ontology" scores well without abducting anything. That is performative
+contrarianism. The scored representation-shift family therefore contains concealed decoys, and
+the model is never told which family it faces:
+
+| World family | Correct response |
+|---|---|
+| True replacement ("Vulcan") | formulate the deeper replacement mechanism |
+| Patch-correct ("Neptune") | adopt the local patch / hidden entity — replacement is *wrong* here |
+| Incumbent-correct | retain the incumbent; the anomaly is sampling variation |
+| Measurement artifact | attribute the discrepancy to the measurement process |
+
+**Endpoint (named secondary): balanced representation-shift accuracy** — *replacement
+sensitivity* (changing representation when a change is required) reported against
+*false-replacement rate* (staging a revolution when a patch, measurement account, or unchanged
+incumbent is correct), per condition. The balanced combination is reported, never the raw rate of
+novel-theory proposals. Neptune and Vulcan are the historical reason this control exists: the same
+inference was correct once and wrong once.
+
+Generator-grammar details freeze with the Phase-2 task-materials registration.
+
+## 5b. Open materials — what is released, and when
+
+**Before the scored run**, the public repository contains: the simulator interface; the active,
+online-yoked and passive-proposer harnesses; toy and retired development worlds; the mechanism
+schema; the blinded-scoring procedure; the power-analysis code and sensitivity grid; environment
+lock files; baseline agents; the test suite; and a timestamped hash manifest of the generator,
+scored instances and seeds.
+
+**Sealed until the definitive run:** the scored worlds, their hidden mechanisms, the random seeds
+and the test-instance mappings. Releasing them earlier would convert the benchmark into a
+prompt-development exercise against its own holdout.
+
+**After the definitive run**, the repository adds: the complete generator; all scored worlds; raw
+model trajectories including malformed outputs and failed tool calls; adjudication records; model
+configurations; and scripts that reproduce every reported table and figure.
+
+**Governance.** The signed registration is tagged and immutable. External criticism can produce a
+**dated amendment before data collection**, or motivate a subsequent benchmark version; it cannot
+silently alter the definitive protocol after results exist. Open materials should make the
+experiment easier to falsify, not easier to rewrite.
 
 ## 5. Execution-environment freeze (recorded before the definitive run)
 
@@ -324,53 +363,48 @@ abduction. Two readings are therefore declared in advance:
 Results will be interpreted against Reading 1; the existence of Reading 2 is stated here so that
 it cannot function as a post-hoc escape route — for either side.
 
-## 7. Private archive freeze (separate sealed tier)
+## 7. Separate sealed tier (split out in v0.6)
 
-A separate evaluation tier draws on a **sealed private process-trace archive from a proprietary
-applied domain**. As of signing, the sealed evaluation subset (case list private; SHA-256 hash
-manifest committed and externally timestamped) is frozen. Each case is tagged
-**outcome-known / mechanism-known / process-known**; only the tagged competency is scorable
-against it — the three are not equivalent, since a decision can succeed for the wrong stated
-reason.
+A sealed evaluation tier drawing on a private process-trace archive from a proprietary applied
+domain **is not registered here**. It is a separate study with its own timetable and receives its
+own registration before its own data collection. Nothing in the present experiment depends on it.
 
-An exposure log records every case that has entered any LLM context before sealing; exposed cases
-are development data and excluded from the sealed set. Sealed cases may enter an LLM prompt only
-during a scored, logged evaluation run under **recorded** (never assumed) data-retention settings,
-documented per provider per run. Because the archive was authored in sessions with one model
-family, that family counts as *development-exposed* for this tier; evaluation preferentially uses
-models from providers with no plausible prior exposure, and any exception is disclosed with the
-exposure log. **Blinded grading:** the scorer does not know which condition or model produced an
-answer, nor (where feasible) whether the underlying case was historically a success or failure.
-
-The archive contents, the domain, and the applied program are not described more specifically in
-public materials.
+Its governing principles, recorded here so that the later registration cannot quietly weaken
+them: cases are tagged *outcome-known / mechanism-known / process-known* and only the tagged
+competency is scorable, since a decision can succeed for the wrong stated reason; an exposure log
+records every case that has entered any model context before sealing, and exposed cases become
+development data; the model family in whose sessions the archive was authored counts as
+development-exposed for that tier; grading is blinded to condition and model.
 
 ## 8. Information boundary
 
 The applied track in the proprietary domain produces **no publications**; its output is an
-internal working product. Public materials reference the sealed archive only in the
-domain-generic form above.
+internal working product. Public materials may name the *field* of that applied work, but not the
+archive contents, the specific program, its methods or its results.
 
 ## 9. Sign-off checklist
 
-**Design:** [x] static-plus-protocol arm (C2) · [x] online yoked control (C6) with yoking spec ·
-[x] passive-proposer arm (C8) · [x] primary endpoint + primary contrast specified (binary,
-C4-vs-C6) · [x] minimum meaningful effect defined (15pp, justified) · [x] design-sensitivity
-analysis completed and independently verified · [x] world identifiability audit procedure ·
-[x] calibration/informativeness clause · [ ] **decoy worlds + balanced representation-shift
-scoring (v0.6 amendment, see §4b)** · [ ] mechanism-equivalence rubric frozen (freezes with
-Phase-2 task materials) · [ ] pilot worlds flagged for exclusion (no worlds generated yet).
+**Design — complete.**
+[x] static-plus-protocol arm (C2) · [x] online yoked control (C6) with full yoking spec ·
+[x] passive-proposer arm (C8) · [x] query-only arm (C3) with allowed/forbidden query rules ·
+[x] primary endpoint and primary contrast specified (binary, C4-vs-C6) · [x] minimum meaningful
+effect defined and justified (15pp) · [x] five-class adjudication rule with competence floor and
+formal equivalence test · [x] design-sensitivity analysis completed and independently verified,
+with the worst case declared · [x] calibration-pilot-determines-final-N rule · [x] world
+identifiability audit procedure · [x] mechanism-recovery rubric (five levels) · [x] **decoy
+worlds and balanced representation-shift scoring (§4b)** · [x] contamination ordering (§5) ·
+[x] open-materials release lists and governance rule (§5b) · [x] construct disjunction and the
+C4<C6 interpretation pre-declared (§6) · [x] author-supplied criterion designated secondary (§6) ·
+[x] public redaction pass.
 
-**Environment (before the definitive run):** [ ] model snapshots/params/seeds/retry policy frozen ·
-[ ] API retention settings recorded · [ ] simulator + generator code hashes recorded.
+**Freezes with the Phase-2 task materials** (own registration, before any world is generated):
+[ ] generator grammar · [ ] mechanism-language schema · [ ] final rubric wording ·
+[ ] model snapshots, prompts, sampling parameters, seeds and retry policy · [ ] data-retention
+settings recorded per provider · [ ] simulator and generator code hashes.
 
-**Archive:** [ ] sealed-subset selection complete · [x] typology-tagging sheet prepared ·
-[ ] hash manifest of sealed subset generated · [x] exposure log initialized ·
-[ ] blinded-grading procedure frozen.
-
-**Governance:** [x] author-supplied criterion designated secondary (§6) · [ ] external immutable
-timestamp created (at signing) · [x] title reflects scope · [x] construct disjunction and C4<C6
-interpretation pre-declared (§6) · [x] public redaction pass done.
+**Remaining before this registration binds — author action only:**
+[ ] **signature below** · [ ] **external immutable timestamp** (deposit of this file's hash;
+tag `prereg-v1.0-signed`).
 
 ---
 

@@ -15,16 +15,19 @@ This repository exists so the protocol can be attacked **before** any data exist
 
 | | |
 |---|---|
-| **Registration** | Draft v0.5.1 — **not signed**, not yet externally timestamped |
+| **Registration** | **v0.6 — design complete and frozen pending signature.** Not signed, not yet externally timestamped |
 | **Data collected** | None |
 | **Worlds generated** | None (generation happens *after* model snapshots are locked — see §5) |
 | **Results** | None |
 
 **What is in this repository right now:**
 
-- [`PREREGISTRATION.md`](PREREGISTRATION.md) — the full draft protocol: conditions, primary
-  contrast, minimum meaningful effect, five-class adjudication rule, calibration guarantee,
-  contamination ordering, and the pre-declared interpretation of every outcome class.
+- [`PREREGISTRATION.md`](PREREGISTRATION.md) — the full protocol: conditions, primary contrast,
+  minimum meaningful effect, five-class adjudication rule, calibration guarantee, decoy worlds and
+  balanced representation-shift scoring, contamination ordering, open-materials release lists, and
+  the pre-declared interpretation of every outcome class. Everything that remains unchecked in its
+  §9 sign-off list either freezes with the Phase-2 task materials or requires the author's
+  signature.
 - [`analysis/`](analysis/) — the design-sensitivity (power) analysis, its unit tests, and an
   **independent verification implementation** that re-derives the same numbers by a different
   route, plus the verification log.
@@ -60,9 +63,10 @@ they buy precision, and are never counted as additional independent worlds.
 At least one third of scored worlds are **Vulcan traps**: an incumbent theory that explains almost
 everything, a sparse anomaly, a cheap patch that fits the observed data, and a deeper replacement
 mechanism that unifies more — with held-out interventions where patch and replacement disagree.
-The model must *formulate* the replacement, not pick it from a menu. A pending amendment (§4b)
-adds **concealed decoy worlds** in which the patch, the measurement explanation, or the unchanged
-incumbent is actually correct, so that "always propose a revolution" cannot score well.
+The model must *formulate* the replacement, not pick it from a menu. The family also contains **concealed decoy worlds** (§4b) in which the cheap patch, a measurement
+artifact, or the unchanged incumbent is actually correct — so that "always propose a revolution"
+cannot score well. Scoring is two-directional: replacement sensitivity against false-replacement
+rate.
 
 ## What this is not
 

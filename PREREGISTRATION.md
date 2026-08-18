@@ -1,14 +1,11 @@
 # Pre-Registration: ABDUCTION-BENCHMARK — Active vs Online-Yoked Mechanism Discovery
 
-> ## STATUS: v0.6.3 — awaiting signature and external timestamp. NO DATA COLLECTED.
+> ## STATUS: v1.0 — SIGNED 2026-08-18. NO DATA COLLECTED. External timestamp: pending deposit (see foot of document).
 >
-> **Design is complete and frozen pending signature.** This document is published in draft so
-> that it can be attacked before it becomes binding. See [README](README.md) for how to file
-> criticism.
->
-> It becomes binding when the author signs §9 and the document is committed with a signed git
-> commit **plus an external immutable timestamp**. The signed version is tagged
-> `prereg-v1.0-signed`; that tag — not this file's moving state — is the citable registration.
+> **Design is complete, frozen, and signed.** The citable registration is the git tag
+> `prereg-v1.0-signed` (this commit), not this file's moving state. Any change after this point
+> is an amendment: dated, labeled, and appended — never edited in place. Criticism is still
+> welcome; see [README](README.md) for how to file it.
 >
 > **v0.6.3 additions (2026-08-18, program-level end-goal review — additive only, no primary
 > change):** (i) an optional secondary **placebo-protocol arm (C10)** — a matched-length,
@@ -471,12 +468,13 @@ C4<C6 interpretation pre-declared (§6) · [x] author-supplied criterion designa
 [ ] model snapshots, prompts, sampling parameters, seeds and retry policy · [ ] data-retention
 settings recorded per provider · [ ] simulator and generator code hashes.
 
-**Remaining before this registration binds — author action only:**
-[ ] **signature below** · [ ] **external immutable timestamp** (deposit of this file's hash;
-tag `prereg-v1.0-signed`).
+**Binding status:**
+[x] **signature below** (2026-08-18) · [ ] **external immutable timestamp** (deposit of the
+signed commit's file hash — pending; reference to be appended below, not edited above).
 
 ---
 
-Signature: ______________  Date: __________
+Signature: **Ursina Sanderink**  Date: **2026-08-18**
 
-Signed commit hash: *(filled on signing)* · External timestamp reference: *(filled on deposit)*
+Signed commit hash: *(the commit tagged `prereg-v1.0-signed`)* · External timestamp reference:
+*(to be appended on deposit)*

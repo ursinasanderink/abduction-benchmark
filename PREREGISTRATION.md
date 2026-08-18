@@ -1,6 +1,6 @@
 # Pre-Registration: ABDUCTION-BENCHMARK — Active vs Online-Yoked Mechanism Discovery
 
-> ## STATUS: v0.6 — awaiting signature and external timestamp. NO DATA COLLECTED.
+> ## STATUS: v0.6.2 — awaiting signature and external timestamp. NO DATA COLLECTED.
 >
 > **Design is complete and frozen pending signature.** This document is published in draft so
 > that it can be attacked before it becomes binding. See [README](README.md) for how to file
@@ -9,6 +9,11 @@
 > It becomes binding when the author signs §9 and the document is committed with a signed git
 > commit **plus an external immutable timestamp**. The signed version is tagged
 > `prereg-v1.0-signed`; that tag — not this file's moving state — is the citable registration.
+>
+> **v0.6.2 addition (2026-08-07, end-goal alignment audit — additive only):** the abductive-
+> protocol arm (C2/C5) is now explicitly specified as a single version-labeled written artifact
+> whose text freezes with the Phase-2 task-materials registration, with instantiation-level
+> interpretation scope declared in advance (§2).
 >
 > **v0.6.1 additions (2026-08-06, pre-signature audit — additive only, no condition/endpoint/
 > power changes):** yoke-agreement and proposer-agreement rates declared as measured moderators;
@@ -118,6 +123,17 @@ Interpretable effects: interaction effect (C4−C1), protocol effect (C2−C1, C
 interaction×protocol (does the protocol help only when the model can act), intervention value
 beyond question-asking (C4−C3), planning-without-control (C8−C6), coupling value (C4−C8), and
 **the primary contrast below**.
+
+**Abductive-protocol arm specification (v0.6.2).** The protocol conditioned on in C2/C5 is a
+single, version-labeled written artifact ("Protocol v0.x"), derived from the historical-coding
+study's category system, and its exact text **freezes with the Phase-2 task-materials
+registration** — like the generator grammar, before any world is generated. Interpretation scope
+is fixed in advance: C5 ≈ C4 (or C2 ≈ C1) is evidence about *this protocol instantiation*, not
+about the existence of any useful explicit abductive procedure; only repeated nulls across
+materially different, separately registered protocol versions would bear on that stronger claim.
+A protocol *benefit* is likewise claimed at instantiation level. The artifact is by construction
+a human-followable document — the same text is the input to the separately registered
+protocol-ablation study.
 
 ## 3. Primary endpoint and analysis plan
 
@@ -428,10 +444,12 @@ identifiability audit procedure · [x] mechanism-recovery rubric (five levels) �
 worlds and balanced representation-shift scoring (§4b)** · [x] contamination ordering (§5) ·
 [x] open-materials release lists and governance rule (§5b) · [x] construct disjunction and the
 C4<C6 interpretation pre-declared (§6) · [x] author-supplied criterion designated secondary (§6) ·
+[x] abductive-protocol arm specification and instantiation-scope rule (§2, v0.6.2) ·
 [x] public redaction pass.
 
 **Freezes with the Phase-2 task materials** (own registration, before any world is generated):
-[ ] generator grammar · [ ] mechanism-language schema · [ ] final rubric wording ·
+[ ] generator grammar · [ ] mechanism-language schema · [ ] abductive-protocol text
+(version-labeled, §2) · [ ] final rubric wording ·
 [ ] model snapshots, prompts, sampling parameters, seeds and retry policy · [ ] data-retention
 settings recorded per provider · [ ] simulator and generator code hashes.
 

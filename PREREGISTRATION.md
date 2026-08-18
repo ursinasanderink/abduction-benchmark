@@ -1,4 +1,4 @@
-# Pre-Registration: ABDUCT-BENCH — Active vs Online-Yoked Mechanism Discovery
+# Pre-Registration: ABDUCTION-BENCHMARK — Active vs Online-Yoked Mechanism Discovery
 
 > ## STATUS: v0.6 — awaiting signature and external timestamp. NO DATA COLLECTED.
 >

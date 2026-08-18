@@ -9,13 +9,16 @@ budgets — without having chosen it.
 
 This repository exists so the protocol can be attacked **before** any data exists.
 
+The benchmark is one study inside a larger program — see [`PROGRAM_OVERVIEW.md`](PROGRAM_OVERVIEW.md)
+for the questions the program is trying to answer, in order, and where this experiment sits.
+
 ---
 
-## ⚠️ Status: pre-registration draft. Nothing has been run.
+## Status: pre-registration **signed** (v1.0, 2026-08-18). Nothing has been run.
 
 | | |
 |---|---|
-| **Registration** | **v0.6 — design complete and frozen pending signature.** Not signed, not yet externally timestamped |
+| **Registration** | **v1.0 — signed 2026-08-18; citable tag `prereg-v1.0-signed`.** External timestamp deposit pending (reference will be appended to the registration's foot, never edited above the tag) |
 | **Data collected** | None |
 | **Worlds generated** | None (generation happens *after* model snapshots are locked — see §5) |
 | **Results** | None |

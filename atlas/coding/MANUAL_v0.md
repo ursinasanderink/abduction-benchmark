@@ -1,6 +1,6 @@
 # Abduction Atlas — Coding Manual v0
 
-**Status:** v0 (2026-08-18), pre-pilot. Governed by [`../PREREG_ATLAS.md`](../PREREG_ATLAS.md) (PR-1).
+**Status:** v0 (2026-08-18; rev. 2026-08-19 per PR-1 v0.2: Lin 2007 ninth response; α value handling; segmentation-audit and hindsight-defence procedures cross-referenced), pre-pilot. Governed by [`../PREREG_ATLAS.md`](../PREREG_ATLAS.md) (PR-1).
 Revised after pilots 1–2 (v0.2), validated on pilot 3 (Krebs/KEKADA), then **frozen as v1** — after
 which no category engineering; defects found later are reported, not fixed mid-study. Every
 category carries its source tag (literature-forced LF# / our proposal OP# per PR-1 §4). Examples are
@@ -23,7 +23,15 @@ Morley) so the manual does not pre-code the corpus.
   count of unknowns is reported as data (PR-1 §5(i)). Do not infer what the source does not
   show; do record that it does not show it.
 - **Coder-independence:** you code from the dossier alone. Do not consult other coders' files,
-  the KEKADA papers (set 8), or the program's synthesis while coding.
+  the KEKADA papers (set 8), or the program's synthesis while coding. Independent coders receive
+  episodes under **neutral IDs**, one episode at a time (never paired dossiers), without the A2
+  directional hypothesis (PR-1 §7 hindsight defence).
+- **Dossier construction** is itself audited: for ≥ 25% of public episodes two builders extract
+  moves independently from the same raw sources before any category is applied; the dossier is the
+  reconciled union (PR-1 §7 event-segmentation audit).
+- **How codes enter reliability:** each category is scored per move present/absent; `unknown` is a
+  distinct code (α reported with and without it); `not-applicable` (e.g. A-TYPE when A-TRIGGER ≠
+  anomaly) is excluded from that category's α (PR-1 §7).
 
 ---
 
@@ -76,9 +84,11 @@ residual read as pointing to an unseen body → `indicative-entity`. (−) Do no
 what the anomaly *turned out* to be; code the actor's evidenced reading at the move.
 
 **A-RESPONSE** — the actor's response to the anomalous datum at this move (Chinn & Brewer
-1993/1998; exhaustive, one per move). `ignore` (no engagement recorded despite documented
-awareness), `reject-data` (datum treated as invalid), `uncertainty` (validity questioned, held
-open), `exclude` (datum placed outside the theory's domain), `abeyance` (accepted as valid, held
+1993/1998; Lin 2007; exhaustive, one per move — multi-stage responses are coded as successive
+moves). `ignore` (no engagement recorded despite documented awareness), `reject-data` (datum
+treated as invalid), `uncertainty-of-data` (validity of the datum questioned, held open),
+`uncertainty-of-interpretation` (datum accepted as valid but its meaning for the theory left
+undecided — Lin 2007), `exclude` (datum placed outside the theory's domain), `abeyance` (accepted as valid, held
 for later, theory unchanged), `reinterpret` (datum re-described so the theory stands, no change to
 theory), `peripheral-change` (datum accepted; theory changed in a non-core part), `theory-change`
 (core theory changed, possibly toward a rival), `unknown`. (+) Kelvin dismissing X-ray reports as

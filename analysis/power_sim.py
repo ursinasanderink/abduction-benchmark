@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Design-sensitivity power analysis for the ABDUCT-BENCH factorial simulator experiment.
+"""Design-sensitivity power analysis for the ABDUCTION-BENCHMARK factorial simulator experiment.
 
 Primary contrast: C4 (action-controllable) vs C6 (yoked passive control), binary primary
 outcome (mechanism recovery = rubric level 1-2), analyzed as a PAIRED, WORLD-LEVEL test:

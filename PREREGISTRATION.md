@@ -10,6 +10,13 @@
 > commit **plus an external immutable timestamp**. The signed version is tagged
 > `prereg-v1.0-signed`; that tag — not this file's moving state — is the citable registration.
 >
+> **v0.6.1 additions (2026-08-06, pre-signature audit — additive only, no condition/endpoint/
+> power changes):** yoke-agreement and proposer-agreement rates declared as measured moderators;
+> token-role asymmetry named as a bundled mechanism/limitation; trajectory measures declared as
+> exploratory log-derived analyses; off-policy/DAgger vocabulary bridge added; response
+> literature to the target paper noted (Balani & Panda arXiv 2608.14397; Zheng-Xin 2026;
+> Farmer 2026 — all argumentative, none experimental as of signing).
+>
 > **v0.6 changes (2026-08-05):** the sealed private-archive tier was **split into its own future
 > registration** (it is a different study on a different timetable and is not required for this
 > experiment); concealed decoy worlds and balanced representation-shift scoring were **integrated
@@ -189,6 +196,20 @@ beyond question-asking (C4−C3), planning-without-control (C8−C6), coupling v
   or extend data collection.
 - **Pilot worlds are excluded from the final evaluation set.**
 
+- **Declared moderators (v0.6.1, measured from existing logs — no new conditions):**
+  (a) **yoke-agreement rate** — per step, whether C6's stated desired next observation matches the
+  intervention its active twin actually executed; reported as a moderator of the primary contrast
+  (predicted direction: the C4−C6 effect is larger on low-agreement worlds, where the yoke
+  received evidence it would not have sought); (b) **proposer-agreement rate** — the C8 analog
+  over logged proposals, which directly quantifies how "foreign" the received experiments were.
+  Both use material the arms already produce; declaring them now prevents their later use from
+  being post hoc.
+- **Exploratory log-derived analyses (v0.6.1, labeled exploratory in all reporting):** trajectory
+  measures over per-step hypothesis states — the round at which the correct mechanism (rubric
+  level 1–2) first appears in any arm's candidate set, and the "held-then-abandoned" rate
+  (correct mechanism appears and is later dropped; cf. premature stopping in interactive causal
+  discovery). No confirmatory claims attach to these.
+
 ## 3b. Calibration and informativeness guarantee
 
 The primary contrast is informative in several pre-declared directions (§6); the only
@@ -346,6 +367,18 @@ Any criterion supplied **before data collection** is added as a dated, author-at
   a failed experiment, and will be reported as such.
 - **Ambiguous (will not be spun):** uniform failure (task too hard — re-ladder per §3b) or
   uniform success (too easy — re-ladder per §3b) across arms.
+
+**Bundled mechanisms within the functional reading (v0.6.1, declared):** a C4 advantage over C6
+is attributable to *choosing and integrating one's own interventions* as a package. Two components
+of that package are named here because they cannot be separated by this design: (i) an
+**off-policy/covariate-shift component** — the yoke updates on evidence generated under another
+agent's evolving hypothesis, the structure formalized in imitation learning (cf. DAgger): the
+received sequence may be uninformative *relative to the yoke's own current hypothesis* even though
+it was informative for the chooser; (ii) a **token-role component** — part of the active arm's
+evidence trail exists as its own generated tokens while the yoke receives equivalent content as
+provided input, and matched token budgets do not equalize how models process self-generated versus
+received context. Both components are *part of* what "intervention choice" means operationally
+here; disentangling them is future work, and no result will be reported as excluding them.
 
 **Construct disjunction (binding for interpretation):** Magnani's manipulative abduction is
 defined through action on *external epistemic mediators* ("thinking through doing"; action

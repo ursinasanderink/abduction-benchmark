@@ -478,3 +478,18 @@ Signature: **Ursina Sanderink**  Date: **2026-08-18**
 
 Signed commit hash: *(the commit tagged `prereg-v1.0-signed`)* · External timestamp reference:
 *(to be appended on deposit)*
+
+---
+
+## Amendments (post-signature; appended, dated, never edited above the tag)
+
+**A1 — 2026-08-18 — prior-art note, no protocol change.** Mohiuddin, Kranti, Hakimov &
+Schlangen, "Don't Let Me Ask for It: LLMs Show Deficiencies in Active Multi-Turn Information
+Acquisition for Abductive Inference" (arXiv 2608.03388, posted 2026-08-04, i.e. while this
+protocol was being finalized; S2 CorpusId 290833626) introduces the *Alien Abduction* game,
+varying upfront vs sequential evidence and model-selected queries vs oracle-provided examples.
+Positioning relative to this registration: their model-selected and oracle-provided conditions
+receive *different* evidence, so evidence quality and agency co-vary; our primary contrast holds
+the realized evidence sequence fixed (C6). It sharpens, and does not pre-empt, the identification
+question registered here. Added to the prior-art table; the positioning statement (§Positioning)
+is unchanged.

@@ -1,6 +1,6 @@
 # Pre-Registration: ABDUCTION-BENCHMARK — Active vs Online-Yoked Mechanism Discovery
 
-> ## STATUS: v0.6.2 — awaiting signature and external timestamp. NO DATA COLLECTED.
+> ## STATUS: v0.6.3 — awaiting signature and external timestamp. NO DATA COLLECTED.
 >
 > **Design is complete and frozen pending signature.** This document is published in draft so
 > that it can be attacked before it becomes binding. See [README](README.md) for how to file
@@ -9,6 +9,15 @@
 > It becomes binding when the author signs §9 and the document is committed with a signed git
 > commit **plus an external immutable timestamp**. The signed version is tagged
 > `prereg-v1.0-signed`; that tag — not this file's moving state — is the citable registration.
+>
+> **v0.6.3 additions (2026-08-18, program-level end-goal review — additive only, no primary
+> change):** (i) an optional secondary **placebo-protocol arm (C10)** — a matched-length,
+> matched-step-count, scientific-method-generic protocol — declared budget-permitting, so that any
+> protocol effect can be attributed to abduction-specific content rather than to "any structure
+> helps"; (ii) the abductive-protocol artifact's provenance is stated (derived from the
+> pre-registered process-literature synthesis and the historical-coding pilot manual); (iii)
+> paradigm lineage extended to Klahr & Dunbar's dual-space search (hypothesis space × experiment
+> space), which the active/yoked design instantiates.
 >
 > **v0.6.2 addition (2026-08-07, end-goal alignment audit — additive only):** the abductive-
 > protocol arm (C2/C5) is now explicitly specified as a single version-labeled written artifact
@@ -31,7 +40,8 @@
 
 **Positioning (binding for all public materials):** this study is *a preregistered replication and
 extension of active-versus-yoked hidden-mechanism discovery* (Geng, Chen, Arumugam & Griffiths,
-arXiv 2505.17968; paradigm lineage Markant & Gureckis 2014; cf. Samiei et al. arXiv 2606.06464,
+arXiv 2505.17968; paradigm lineage Markant & Gureckis 2014, and — for the hypothesis-space ×
+experiment-space structure — Klahr & Dunbar 1988; cf. Samiei et al. arXiv 2606.06464,
 CausaLab arXiv 2605.26029, Lampinen et al. arXiv 2305.16183), testing whether **intervention
 choice contributes beyond an identical externally generated evidence stream**.
 
@@ -115,6 +125,12 @@ plus these controls:
 - **C9 — oracle-trace yoke** *(optional secondary, budget permitting)*: yoked delivery of an
   intervention sequence selected by a near-optimal scripted policy — upper-bounds the "evidence
   quality" channel.
+- **C10 — placebo protocol** *(optional secondary, budget permitting; v0.6.3)*: C2/C5's
+  protocol replaced by a **matched-length, matched-step-count, scientific-method-generic**
+  protocol with no abduction-specific content. Isolates the active ingredient: a C5 > C10 (or
+  C2 > C10) difference is evidence for abduction-specific content; C5 ≈ C10 > C4 means "structure
+  helps, abduction-specific content does not." If budget excludes C10 here, this control is
+  mandatory in the separately registered protocol-ablation study.
 
 **Terminology:** yoked arms receive the same **external evidence**, not "the same information" —
 the active agent's endogenous reasoning history is part of the treatment, by design.
@@ -125,8 +141,9 @@ beyond question-asking (C4−C3), planning-without-control (C8−C6), coupling v
 **the primary contrast below**.
 
 **Abductive-protocol arm specification (v0.6.2).** The protocol conditioned on in C2/C5 is a
-single, version-labeled written artifact ("Protocol v0.x"), derived from the historical-coding
-study's category system, and its exact text **freezes with the Phase-2 task-materials
+single, version-labeled written artifact ("Protocol v0.x"), derived from the pre-registered
+process-literature synthesis (existing step/heuristic models of discovery) and the
+historical-coding study's pilot category system, and its exact text **freezes with the Phase-2 task-materials
 registration** — like the generator grammar, before any world is generated. Interpretation scope
 is fixed in advance: C5 ≈ C4 (or C2 ≈ C1) is evidence about *this protocol instantiation*, not
 about the existence of any useful explicit abductive procedure; only repeated nulls across
@@ -445,6 +462,7 @@ worlds and balanced representation-shift scoring (§4b)** · [x] contamination o
 [x] open-materials release lists and governance rule (§5b) · [x] construct disjunction and the
 C4<C6 interpretation pre-declared (§6) · [x] author-supplied criterion designated secondary (§6) ·
 [x] abductive-protocol arm specification and instantiation-scope rule (§2, v0.6.2) ·
+[x] placebo-protocol control declared (optional here, mandatory in the ablation study) (v0.6.3) ·
 [x] public redaction pass.
 
 **Freezes with the Phase-2 task materials** (own registration, before any world is generated):

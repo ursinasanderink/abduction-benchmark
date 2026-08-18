@@ -198,7 +198,8 @@ Per move (from T1/T2 unless flagged):
 - **S-GOALSHIFT** — did the actor drop the current goal/agenda item and take up a new one? `yes/no/
   unknown` (KEKADA). **S-BACKTRACK** — return to an earlier abandoned candidate `yes/no`.
   **S-ABANDON** — candidate abandoned at this move `yes/no`. **S-ESCALATE** — the actor moved to
-  a more radical class of change after lesser ones failed (Darden step 5) `yes/no/unknown`.
+  a more radical class of change after lesser ones failed (Darden 1991 discussion of abandoning the
+  theory / shelving the anomaly; Craver & Darden 2013) `yes/no/unknown`.
 - **S-DT** — elapsed time since previous move (days; `unknown`). **S-COST** — resource cost of the
   move where evidenced `cheap/expensive/unknown` (Peirce). **S-WHO** — interlocutors named.
 
